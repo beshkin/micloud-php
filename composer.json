@@ -1,0 +1,27 @@
+{
+    "name": "beshkin/micloud-php",
+    "description": "PHP client for managing Mi devices over cloud",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Beshkin\\MicloudPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Misha Beshkin",
+            "email": "misha@kosherdev.com",
+            "homepage": "https://beshkin.lv",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "trafficcophp/bytebuffer": "^0.3.0",
+        "guzzlehttp/guzzle": "^7.4",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
